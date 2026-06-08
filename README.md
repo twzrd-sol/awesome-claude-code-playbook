@@ -80,6 +80,7 @@ Complete, copy-paste-ready configurations for your role — CLAUDE.md, settings,
 - [modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) - Slack workspace integration for reading and posting messages. **When to use:** You want Claude to check Slack for context, post updates, or search conversation history.
 - [modelcontextprotocol/server-linear](https://github.com/modelcontextprotocol/servers/tree/main/src/linear) - Linear project management integration. **When to use:** Your team uses Linear for issue tracking and you want Claude to read/create tickets.
 - [modelcontextprotocol/server-sentry](https://github.com/modelcontextprotocol/servers/tree/main/src/sentry) - Sentry error tracking integration. **When to use:** You want Claude to look up recent errors, stack traces, and crash reports from Sentry while debugging.
+- [twzrd-agent-intel](https://intel.twzrd.xyz) - Trust scoring for Solana AI agents. Verify wallet identity before x402 micropayments. **When to use:** Your agents interact with other agents via Solana payments and you need to verify their identity. Zero-install: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 
 ## Skills and Hooks
 
